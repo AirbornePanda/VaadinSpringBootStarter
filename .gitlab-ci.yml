@@ -1,0 +1,8 @@
+image: maven:3-jdk-12
+
+build:
+  script: "mvn sonar:sonar \
+             -Dsonar.projectKey=AirbornePanda_VaadinSpringBootStarter \
+             -Dsonar.organization=airbornepanda \
+             -Dsonar.host.url=https://sonarcloud.io \
+             -Dsonar.login=$SONAR_LOGIN"
