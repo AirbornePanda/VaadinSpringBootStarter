@@ -139,7 +139,6 @@
                 Use the maven-compiler-plugin if you want to change source or target java versions or
                 pass arguments to the compiler.
              -->
-            <!--
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -148,7 +147,6 @@
                     <target>12</target>
                 </configuration>
             </plugin>
-            -->
         </plugins>
     </build>
 </project>
