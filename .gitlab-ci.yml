@@ -2,7 +2,9 @@ image: maven:3-jdk-12
 
 build:
   before_script:
-   - docker-compose exec -T maven apt-get install node -y
+   - yum install -y gcc-c++ make
+   - curl -sL https://rpm.nodesource.com/setup_8.x | sudo -E bash -
+   - yum install nodejs
 
   script:
    - mvn clean package sonar:sonar -Dsonar.projectKey=AirbornePanda_VaadinSpringBootStarter -Dsonar.organization=airbornepanda -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$SONAR_LOGIN
