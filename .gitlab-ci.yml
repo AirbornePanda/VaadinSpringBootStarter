@@ -5,4 +5,4 @@ build:
              -Dsonar.projectKey=AirbornePanda_VaadinSpringBootStarter \
              -Dsonar.organization=airbornepanda \
              -Dsonar.host.url=https://sonarcloud.io \
-             -Dsonar.login=$SONAR_LOGIN"
+             -Dsonar.login="$SONAR_LOGIN
