@@ -3,7 +3,7 @@ image: maven:3-jdk-12
 build:
   before_script:
    - yum install -y gcc-c++ make
-   - curl -sL https://rpm.nodesource.com/setup_8.x | -E bash -
+   - curl -sL https://rpm.nodesource.com/setup_8.x
    - yum install nodejs
 
   script:
