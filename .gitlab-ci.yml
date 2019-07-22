@@ -4,7 +4,7 @@ build:
   before_script:
    - yum install -y gcc-c++ make
    - curl -sL https://rpm.nodesource.com/setup_8.x
-   - yum install nodejs
+   - yum install nodejs -y
 
   script:
    - mvn clean package sonar:sonar -Dsonar.projectKey=AirbornePanda_VaadinSpringBootStarter -Dsonar.organization=airbornepanda -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$SONAR_LOGIN
