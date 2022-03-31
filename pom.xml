@@ -16,7 +16,7 @@
         <junit-jupiter-api.version>5.5.0</junit-jupiter-api.version>
         <junit-platform-commons.version>1.5.0</junit-platform-commons.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
-        <spring-boot.version>2.1.6.RELEASE</spring-boot.version>
+        <spring-boot.version>2.5.12</spring-boot.version>
         <spring-test.version>5.1.8.RELEASE</spring-test.version>
         <vaadin.version>14.0.0.rc6</vaadin.version>
     </properties>
